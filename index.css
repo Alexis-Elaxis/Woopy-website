@@ -31,10 +31,23 @@ input[type="text"] {
     border: 1px solid white;
     padding: 14px;
     width: 30%;
+    height: 50px;
 }
 
 input[type="button"] {
-    background: white;
+    background: none;
     border: 1px solid white;
+    color: white;
+
+    padding: 14px;
+    height: 50px;
+
+    transition: 0.8s;
+}
+
+input[type="button"]:hover {
+    background: white;
     color: black;
+
+    transition: 0.8s;
 }
